@@ -1,35 +1,9 @@
-# 00-intro
+# Intro
 
-This template should help get you started developing with Vue 3 in Vite.
+> 12/01/2024
 
-## Recommended IDE Setup
+I've been currently learning about Vue.js. I Learn about
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- [Template Syntax](https://vuejs.org/guide/essentials/template-syntax.html)
+- [Reactivity Fundamentals](https://vuejs.org/guide/essentials/reactivity-fundamentals.html)
+- [Computed Properties](https://vuejs.org/guide/essentials/computed.html)
