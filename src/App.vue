@@ -5,6 +5,7 @@ import ReactivityFundamentals from './components/ReactivityFundamentals.vue'
 import ComputedProperty from './components/ComputedProperty.vue'
 import ClassAndStyleBinding from './components/ClassAndStyleBinding.vue'
 import ConditionalRendering from './components/ConditionalRendering.vue'
+import ListRendering from './components/ListRendering.vue'
 import Radio from './components/Radio.vue'
 import { ref } from 'vue'
 
@@ -21,6 +22,7 @@ const value = ref('')
       <Radio name="computed-property" v-model="value" label="Computed Property" />
       <Radio name="class-and-style-binding" v-model="value" label="Class and Style Binding" />
       <Radio name="conditional-rendering" v-model="value" label="Conditional Rendering" />
+      <Radio name="list-rendering" v-model="value" label="List Rendering" />
     </div>
   </header>
   <main>
@@ -33,6 +35,7 @@ const value = ref('')
       <ComputedProperty v-else-if="value === 'computed-property'" />
       <ClassAndStyleBinding v-else-if="value === 'class-and-style-binding'" />
       <ConditionalRendering v-else-if="value === 'conditional-rendering'" />
+      <ListRendering v-else-if="value === 'list-rendering'" />
     </div>
   </main>
 </template>
